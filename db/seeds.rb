@@ -3,9 +3,6 @@ Cocktail.destroy_all
 Dose.destroy_all
 
 
-
-
-
 Ingredient.create(name: "lemon")
 Ingredient.create(name: "ice")
 Ingredient.create(name: "mint leaves")
@@ -24,18 +21,10 @@ Cocktail.create(name: "Roy Rodgers")
 Cocktail.create(name: "Gin and Tonic")
 Cocktail.create(name: "Slippery Nipple")
 Cocktail.create(name: "Irish Car Bomb")
-
-Dose.create (
-    [
-        {
-            ingredient_id: 99,
-            cocktail_id: 113,
-            description: "A very good drink",
-        },
-        {
-            ingredient_id: 100,
-            cocktail_id: 114,
-            description: "Very sweet",
-        }
-    ]
-)
+Cocktail.create(name: "Screwdriver")
+Cocktail.create(name: "Shirley Temple")
+Cocktail.create(name: "Vodka on the Rocks")
+Cocktail.create(name: "Everclear")
+Cocktail.create(name: "White Russian")
+Cocktail.create(name: "Hair of the Dog")
+Cocktail.create(name: "Martini")
